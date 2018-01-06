@@ -1,5 +1,5 @@
 var myButton = document.getElementsByClassName('button');
-for (i = 0; i < myButton.length; i++) {
-    myButton.innerText = 'Click';
+
+for ( var i = 0; i < myButton.length; i++ ) {
+    alert(myButton[i]);
 }
-console.log(myButton);
